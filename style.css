@@ -1,18 +1,6 @@
 @font-face {
-	font-family: "Euclid-light";
-	src: url(fonts/Euclid\ Circular\ A\ Light.ttf);
-}
-@font-face {
 	font-family: "Euclid-medium";
 	src: url(fonts/Euclid\ Circular\ A\ Medium.ttf);
-}
-@font-face {
-	font-family: "Euclid-semibold";
-	src: url(fonts/Euclid\ Circular\ A\ SemiBold.ttf);
-}
-@font-face {
-	font-family: "Euclid-bold";
-	src: url(fonts/Euclid\ Circular\ A\ Bold.ttf);
 }
 
 * {
