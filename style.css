@@ -199,7 +199,7 @@ label{
 	transition: all 0.5s;
 }
 .reveal{
-	/* transform: translateY(130%); */
+	transform: translateY(130%);
 }
 .addTaskPopUp .newTaskBox {
 	width: 100%;
