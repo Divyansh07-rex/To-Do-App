@@ -60,10 +60,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* background-color: white; */
-	/* z-index: 999; */
-	/* border: 1px solid; */
-	/* position: sticky; */
 }
 #delete-btn {
 	height: 1.3rem;
@@ -82,29 +78,8 @@ body {
 	position: sticky;
 	display: flex;
 	align-items: center;
-	/* background-color: white; */
-	/* z-index: 999; */
-	/* border: 1px solid; */
 }
-
-/* #dropdown-icon {
-	height: 1.5rem;
-	margin-left: 2px;
-} */
-/* .cbDropDown{
-	position: absolute;
-	transform: translateY(-100%);
-	transition: all 0.3s ease-in-out;
-	opacity: 1;
-	z-index: -999;
-} */
-/* .task-cb{
-	position: sticky;
-	background-color: white;
-	z-index: 999;
-} */
 .cb {
-	/* background-color: rgb(197, 197, 28); */
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -130,7 +105,6 @@ input[type="checkbox"]:checked + label {
 	display: flex;
 	width: 90%;
 	align-items: flex-start;
-	/* justify-content: center; */
 	margin: 0.5rem;
 	/* border: 1px solid rgba(128, 128, 128, 0.378); */
 
