@@ -43,12 +43,7 @@ function updation() {
 }
 updation();
 
-//..----------------------------------------------------------------------------|-
-//-|                 Div with Class items - newChild                            |-
-//-|                        Input element - newInput                            |-
-//-|                        Label element - newChildLabel                       |-
-//..----------------------------------------------------------------------------|-
-
+//-----------
 const newTask = document.querySelector(".newTaskBox");
 const inCompleteTasks = document.querySelector(".cb");
 const completeTasks = document.querySelector(".completedCB");
@@ -115,7 +110,7 @@ newTask.addEventListener("keypress", function (event) {
 	}
 });
 
-//..cancel popup event
+//..Cancel popup event
 const cancel = document.getElementById("cancel");
 cancel.addEventListener("click", function () {
 		newTask.value = "";
@@ -147,16 +142,13 @@ function check(item) {
 function checkAttributes() {
 	// Used querySelectorAll for all targeting all the attributes of input and labels.
 	let checkbox = document.querySelectorAll("input[id][type=checkbox]");
-	// let label = document.querySelectorAll("label[for]");
 
-	// Looping through all the input and label elements and adding event listener to them
+	// Looping through all the input elements and adding event listener to them
 	for (let i = checkbox.length - 1; i < checkbox.length; i++) {
 		// console.log(checkbox);
 		check(checkbox[i]);
-		// check(label[i]);
 	}
 }
-// checkAttributes();
 
 //..Function to check the value of label is empty or not.
 //..If empty then delete the task
@@ -176,15 +168,6 @@ function checkLabelValue() {
 	}
 }
 
-//..Function for showing taskDelete Icon
-// function showDeleteIcon() {
-// 	let label = document.querySelectorAll("label[for]");
-// 	for (let i = label.length - 1; i < label.length; i++) {
-// 		label[i].addEventListener("click", function () {
-// 			document.getElementById("d").classList.toggle("hidden")
-// 		});
-// 	}
-// }
 
 //.. Function to delete all task from the incomplete section
 const deleteAllBtn = document.querySelector("#delete-btn");
@@ -203,4 +186,4 @@ addPopUp.addEventListener("click", function () {
 	addPopUp.classList.toggle("rotated");
 });
 
-// const inCompleteTasksRemove = document.getElementById("222*")
+
